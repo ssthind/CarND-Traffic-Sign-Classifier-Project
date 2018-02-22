@@ -152,7 +152,7 @@ Here are the results of the prediction:
 | Dangerous curve to the right	| Vehicles over 3.5 metric tons prohibited		|
 |								|												|
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set .
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set .
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -162,10 +162,10 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 0.990        			| Stop Sign      								| 
-| 0.999    				| General caution								|
+| 0.999        			| Stop Sign      								| 
+| 1.0    				| General caution								|
 | 1.0					| Priority road									|
-| 0.999	      			| Speed limit (30km/h)							|
-| 0.000068			    | Dangerous curve to the right					|
+| 0.996	      			| Speed limit (30km/h)							|
+| 0.998				    | Dangerous curve to the right					|
 
 
