@@ -19,9 +19,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./logs/tensorboard_1.JPG "Tensorboard Graph screen"
-[image2]: ./logs/tensorboard_Model.jpg "Model Display"
-[image3]: ./logs/tensorboard_conv1.jpg "Convolution Layer 1"
-[image33]: ./logs/tensorboard_conv1_details.jpg "Convolution Layer 1 Details"
+[image2]: ./logs/tensorboard_Model.JPG "Model Display"
+[image3]: ./logs/tensorboard_conv1.JPG "Convolution Layer 1"
+[image33]: ./logs/tensorboard_conv1_details.JPG "Convolution Layer 1 Details"
 [image4]: ./web_images/30.jpg "Traffic Sign 1"
 [image5]: ./web_images/general_caution.jpg "Traffic Sign 2"
 [image6]: ./web_images/priority.jpg "Traffic Sign 3"
