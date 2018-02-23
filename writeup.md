@@ -18,9 +18,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
+[image1]: ./logs/tensorboard_1.JPG "Tensorboard Graph screen"
+[image2]: ./logs/tensorboard_Model.jpg "Model Display"
+[image3]: ./logs/tensorboard_conv1.jpg "Convolution Layer 1"
+[image33]: ./logs/tensorboard_conv1_details.jpg "Convolution Layer 1 Details"
 [image4]: ./web_images/30.jpg "Traffic Sign 1"
 [image5]: ./web_images/general_caution.jpg "Traffic Sign 2"
 [image6]: ./web_images/priority.jpg "Traffic Sign 3"
@@ -79,11 +80,11 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 1 3x3     | 1x1 stride, same padding, outputs 28x28x6 	|
+| Input         		| 32x32x1 Gray-Scale image   					| 
+| Convolution 1 5x5     | 1x1 stride, Valid padding, outputs 28x28x6 	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 14x14x6  				|
-| Convolution 2 3x3     | 1x1 stride, same padding, outputs 10x10x16 	|
+| Convolution 2 5x5     | 1x1 stride, Valid padding, outputs 10x10x16 	|
 | RELU					|												|
 | Max pooling 	    	| 2x2 stride,  outputs 5x5x16  					|
 | Fully connected 1		| Input = 400, Output = 120 					|
@@ -95,8 +96,22 @@ My final model consisted of the following layers:
 | Softmax				|												|
 |						|												|
 |						|												|
- 
 
+#####Visualization in Tensorboard
+
+######Tensorboard Graph screen
+![alt text][image1]
+
+######Tensorboard Model Display
+![alt text][image2]
+
+######Tensorboard Model > Convolution Layer 1
+![alt text][image3]
+
+######Tensorboard Convolution Layer 1 details
+![alt text][image33]
+
+######Additional tensorboard as be run by cloning the repository locally using the file: [for_tensorboad.ipynb](./for_tensorboad.ipynb)
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
