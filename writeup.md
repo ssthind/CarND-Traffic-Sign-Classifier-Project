@@ -97,21 +97,21 @@ My final model consisted of the following layers:
 |						|												|
 |						|												|
 
-#####Visualization in Tensorboard
+##### Visualization in Tensorboard
 
-######Tensorboard Graph screen
+###### Tensorboard Graph screen
 ![alt text][image1]
 
-######Tensorboard Model Display
+###### Tensorboard Model Display
 ![alt text][image2]
 
-######Tensorboard Model > Convolution Layer 1
+###### Tensorboard Model > Convolution Layer 1
 ![alt text][image3]
 
-######Tensorboard Convolution Layer 1 details
+###### Tensorboard Convolution Layer 1 details
 ![alt text][image33]
 
-######Additional tensorboard as be run by cloning the repository locally using the file: [for_tensorboad.ipynb](./for_tensorboad.ipynb)
+###### Additional tensorboard as be run by cloning the repository locally using the file: [for_tensorboad.ipynb](https://github.com/ssthind/CarND-Traffic-Sign-Classifier-Project/blob/master/for_tensorboard.ipynb)
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
